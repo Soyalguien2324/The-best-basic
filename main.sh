@@ -86,7 +86,7 @@ function fzf-lovely {
 }
 
 (( ! ${+functions[p10k-instant-prompt-finalize]} )) || p10k-instant-prompt-finalize
-EOL
+<<EOL
 sudo usermod root --shell /bin/zsh
 export pokl=$USER
 sudo usermod $pokl --shell /bin/zsh
